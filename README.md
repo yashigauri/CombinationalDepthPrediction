@@ -36,12 +36,9 @@ Timing analysis is **time-consuming** since it relies on synthesis reports. This
    python predict.py  
    ```  
 
----  
- 
 ## 📌 Future Improvements  
 - Improve feature selection for better accuracy.  
 - Explore Deep Learning models for further optimization.  
-] 
 
 ---
 
