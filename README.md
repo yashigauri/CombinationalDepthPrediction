@@ -37,20 +37,11 @@ Timing analysis is **time-consuming** since it relies on synthesis reports. This
    ```  
 
 ---  
-
-## 🛠️ Technologies Used  
-- **Python**  
-- **Scikit-Learn** (Machine Learning)  
-- **Pandas & NumPy** (Data Processing)  
-- **Git & GitHub** (Version Control)  
-
----  
-
+ 
 ## 📌 Future Improvements  
 - Improve feature selection for better accuracy.  
 - Explore Deep Learning models for further optimization.  
-
-💡 *Feel free to contribute!* 🚀  
+] 
 
 ---
 
