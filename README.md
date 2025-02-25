@@ -14,6 +14,7 @@ Timing analysis is **time-consuming** since it relies on synthesis reports. This
 - **combinational_depth_model.pkl** → Saved trained model for predictions.  
 - **predict.py** → Script to predict combinational depth for new circuits using the trained model.  
 - **README.md** → This documentation.  
+- **test.py** → Using test data. 
 
 ---  
 
