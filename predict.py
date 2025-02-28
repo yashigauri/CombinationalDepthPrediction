@@ -1,7 +1,7 @@
 import pandas as pd
 import joblib
 model = joblib.load("combinational_depth_model.pkl")
-#One can edit datas here to predict
+#One can use different data for prediction
 sample_data = {
     "Num Gates": [120],
     "Fan-In": [6],
