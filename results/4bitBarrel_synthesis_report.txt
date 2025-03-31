@@ -1,0 +1,21 @@
+
+4. Printing statistics.
+
+=== barrel_shifter_4bit ===
+
+   Number of wires:                 76
+   Number of wire bits:             83
+   Number of public wires:           4
+   Number of public wire bits:      11
+   Number of ports:                  4
+   Number of port bits:             11
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 36
+     $_ANDNOT_                       5
+     $_AND_                         10
+     $_MUX_                          2
+     $_NAND_                        18
+     $_NOR_                          1
+

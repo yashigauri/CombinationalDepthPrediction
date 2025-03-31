@@ -1,0 +1,20 @@
+
+4. Printing statistics.
+
+=== priority_encoder_8x3 ===
+
+   Number of wires:                 52
+   Number of wire bits:             61
+   Number of public wires:           2
+   Number of public wire bits:      11
+   Number of ports:                  2
+   Number of port bits:             11
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     $_ANDNOT_                       2
+     $_NAND_                         4
+     $_NOR_                          4
+     $_OR_                           2
+

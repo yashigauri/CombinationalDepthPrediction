@@ -1,0 +1,19 @@
+
+4. Printing statistics.
+
+=== decoder_2x4 ===
+
+   Number of wires:                  8
+   Number of wire bits:             12
+   Number of public wires:           2
+   Number of public wire bits:       6
+   Number of ports:                  2
+   Number of port bits:              6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     $_ANDNOT_                       2
+     $_AND_                          1
+     $_NOR_                          1
+
