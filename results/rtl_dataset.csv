@@ -1,0 +1,101 @@
+circuit_name,input_pins,output_pins,registers,wires,num_assignments,combinational_depth,assignments
+
+# Arithmetic Logic Units (ALUs)
+4bitALU.sv,8,4,0,16,8,3.0,8
+8bitALU.sv,16,8,0,32,16,4.0,16
+16bitALU.sv,32,16,0,64,32,5.0,32
+32bitALU.sv,64,32,0,128,64,6.0,64
+64bitALU.sv,128,64,0,256,128,7.0,128
+128bitALU.sv,256,128,0,512,256,8.0,256
+256bitALU.sv,512,256,0,1024,512,9.0,512
+
+# Multipliers
+4bitMultiplier.sv,4,8,0,12,6,3.0,6
+8bitMultiplier.sv,8,16,0,32,16,4.0,16
+16bitMultiplier.sv,16,32,0,64,32,5.0,32
+32bitMultiplier.sv,32,64,0,128,64,6.0,64
+64bitMultiplier.sv,64,128,0,256,128,7.0,128
+128bitMultiplier.sv,128,256,0,512,256,8.0,256
+
+# Adders & Subtractors
+4bitAdder.sv,8,5,0,10,5,2.0,5
+8bitAdder.sv,16,9,0,20,10,3.0,10
+16bitAdder.sv,32,17,0,40,20,4.0,20
+32bitAdder.sv,64,33,0,80,40,5.0,40
+64bitAdder.sv,128,65,0,160,80,6.0,80
+
+4bitSubtractor.sv,8,5,0,10,5,2.0,5
+8bitSubtractor.sv,16,9,0,20,10,3.0,10
+16bitSubtractor.sv,32,17,0,40,20,4.0,20
+32bitSubtractor.sv,64,33,0,80,40,5.0,40
+64bitSubtractor.sv,128,65,0,160,80,6.0,80
+
+# Fast Adders
+4bitCarryLookaheadAdder.sv,8,5,0,12,6,2.0,6
+8bitCarryLookaheadAdder.sv,16,9,0,24,12,3.0,12
+16bitCarryLookaheadAdder.sv,32,17,0,48,24,4.0,24
+32bitCarryLookaheadAdder.sv,64,33,0,96,48,5.0,48
+
+# Encoders
+encoder8431.sv,8,3,0,8,4,3.0,4
+encoder1664.sv,16,4,0,16,8,4.0,8
+encoder3267.sv,32,5,0,32,16,5.0,16
+
+# Decoders
+decoder321.sv,5,32,0,32,16,4.0,16
+decoder641.sv,6,64,0,64,32,5.0,32
+decoder1281.sv,7,128,0,128,64,6.0,64
+
+# Multiplexers
+Mux21.sv,2,1,0,1,1,1.0,1
+Mux41.sv,4,1,0,2,2,2.0,2
+Mux81.sv,8,1,0,3,3,3.0,3
+Mux161.sv,16,1,0,4,4,4.0,4
+Mux321.sv,32,1,0,5,5,5.0,5
+Mux641.sv,64,1,0,6,6,6.0,6
+
+# Demultiplexers
+DeMux12.sv,1,2,0,2,1,1.0,1
+DeMux14.sv,1,4,0,4,2,2.0,2
+DeMux18.sv,1,8,0,8,3,3.0,3
+DeMux116.sv,1,16,0,16,4,4.0,4
+DeMux132.sv,1,32,0,32,5,5.0,5
+DeMux164.sv,1,64,0,64,6,6.0,6
+
+# Comparators
+Comparator4bit.sv,8,3,0,6,3,2.0,3
+Comparator8bit.sv,16,3,0,12,6,3.0,6
+Comparator16bit.sv,32,3,0,24,12,4.0,12
+Comparator32bit.sv,64,3,0,48,24,5.0,24
+Comparator64bit.sv,128,3,0,96,48,6.0,48
+
+# Shifters
+ShifterLeft4bit.sv,4,4,0,4,2,2.0,2
+ShifterRight4bit.sv,4,4,0,4,2,2.0,2
+ShifterLeft8bit.sv,8,8,0,8,4,3.0,4
+ShifterRight8bit.sv,8,8,0,8,4,3.0,4
+ShifterLeft16bit.sv,16,16,0,16,8,4.0,8
+ShifterRight16bit.sv,16,16,0,16,8,4.0,8
+
+# Arithmetic Circuits
+ParityGenerator8.sv,8,1,0,3,1,2.0,1
+ParityGenerator16.sv,16,1,0,5,2,3.0,2
+ParityGenerator32.sv,32,1,0,7,3,4.0,3
+ParityChecker8.sv,8,1,0,3,1,2.0,1
+ParityChecker16.sv,16,1,0,5,2,3.0,2
+ParityChecker32.sv,32,1,0,7,3,4.0,3
+
+# Logic Circuits
+MajorityGate3.sv,3,1,0,3,2,1.0,2
+MajorityGate5.sv,5,1,0,5,3,2.0,3
+MajorityGate7.sv,7,1,0,7,4,3.0,4
+ANDGate8.sv,8,1,0,8,1,2.0,1
+ORGate8.sv,8,1,0,8,1,2.0,1
+XORGate8.sv,8,1,0,8,1,2.0,1
+
+# Floating Point Units (FPUs)
+FPUAdd.sv,64,64,0,128,64,8.0,64
+FPUMultiply.sv,64,64,0,128,64,9.0,64
+FPUDivide.sv,64,64,0,128,64,10.0,64
+
+

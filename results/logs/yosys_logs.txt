@@ -1,0 +1,154 @@
+2025-03-21 22:27:06,267 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:28:12,809 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:29:08,876 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:29:39,502 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:29:58,586 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:30:33,803 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:33:15,376 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:34:25,105 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:34:28,936 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:34:33,735 - INFO - Dataset created with 0 entries at /home/yashigauri/yosys_project/results/rtl_combinational_depth_dataset.csv
+2025-03-21 22:38:37,865 - INFO - Dataset created with 0 entries at /home/yashigauri/Verilog_Dataset/rtl_combinational_depth_dataset.csv
+2025-03-21 22:39:07,402 - INFO - Dataset created with 0 entries at /home/yashigauri/Verilog_Dataset/rtl_combinational_depth_dataset.csv
+2025-03-24 14:09:12,164 - INFO - Dataset created with 0 entries at /home/yashigauri/Verilog_Dataset/rtl_combinational_depth_dataset.csv
+2025-03-24 14:35:58,258 - INFO - Processing 4bitALU.sv...
+2025-03-24 14:35:58,267 - INFO - Detected module: alu_4bit
+2025-03-24 14:35:58,622 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/4bitALU.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-3Cr9pB/output.blif'.
+
+2025-03-24 14:35:58,623 - INFO - Processing 4bitBarrel.sv...
+2025-03-24 14:35:58,631 - INFO - Detected module: barrel_shifter_4bit
+2025-03-24 14:35:58,802 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/4bitBarrel.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-7AVlOC/output.blif'.
+
+2025-03-24 14:35:58,802 - INFO - Processing 4bitBoothMul.sv...
+2025-03-24 14:35:58,821 - INFO - Detected module: booth_multiplier
+2025-03-24 14:35:59,042 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/4bitBoothMul.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-FRem7f/output.blif'.
+
+2025-03-24 14:35:59,043 - INFO - Processing 4bitcomp.sv...
+2025-03-24 14:35:59,057 - INFO - Detected module: comparator_4bit
+2025-03-24 14:35:59,223 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/4bitcomp.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-NHZ2RX/output.blif'.
+
+2025-03-24 14:35:59,223 - INFO - Processing 4bitripplecarryadder.sv...
+2025-03-24 14:35:59,233 - INFO - Detected module: ripple_carry_adder_4bit
+2025-03-24 14:35:59,253 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/4bitripplecarryadder.sv:
+ERROR: Module `\full_adder' referenced in module `\ripple_carry_adder_4bit' in cell `\FA3' is not part of the design.
+
+2025-03-24 14:35:59,253 - INFO - Processing 8bitALU.sv...
+2025-03-24 14:35:59,270 - INFO - Detected module: alu_8bit
+2025-03-24 14:35:59,506 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/8bitALU.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-4hYia7/output.blif'.
+
+2025-03-24 14:35:59,506 - INFO - Processing 8bitCLA.sv...
+2025-03-24 14:35:59,518 - INFO - Detected module: cla_8bit
+2025-03-24 14:35:59,669 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/8bitCLA.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-jgI4Hy/output.blif'.
+
+2025-03-24 14:35:59,669 - INFO - Processing AndGate.sv...
+2025-03-24 14:35:59,682 - INFO - Detected module: and_gate
+2025-03-24 14:35:59,833 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/AndGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-tmWu8u/output.blif'.
+
+2025-03-24 14:35:59,833 - INFO - Processing BoothMul16.sv...
+2025-03-24 14:35:59,843 - INFO - Detected module: booth_multiplier_16bit
+2025-03-24 14:36:00,518 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/BoothMul16.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-PTz0e1/output.blif'.
+
+2025-03-24 14:36:00,518 - INFO - Processing comp8.sv...
+2025-03-24 14:36:00,529 - INFO - Detected module: comparator_8bit
+2025-03-24 14:36:00,685 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/comp8.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-cgR8Of/output.blif'.
+
+2025-03-24 14:36:00,685 - INFO - Processing decoder24.sv...
+2025-03-24 14:36:00,694 - INFO - Detected module: decoder_2x4
+2025-03-24 14:36:00,873 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/decoder24.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-OhQUBr/output.blif'.
+
+2025-03-24 14:36:00,873 - INFO - Processing decoder38.sv...
+2025-03-24 14:36:00,885 - INFO - Detected module: decoder_3x8
+2025-03-24 14:36:01,066 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/decoder38.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-ni3OzE/output.blif'.
+
+2025-03-24 14:36:01,066 - INFO - Processing DeMux14.sv...
+2025-03-24 14:36:01,074 - INFO - Detected module: demux_1x4
+2025-03-24 14:36:01,254 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/DeMux14.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-8mdcxB/output.blif'.
+
+2025-03-24 14:36:01,254 - INFO - Processing encoder42.sv...
+2025-03-24 14:36:01,268 - INFO - Detected module: encoder_4x2
+2025-03-24 14:36:01,431 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/encoder42.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-3PxWuE/output.blif'.
+
+2025-03-24 14:36:01,432 - INFO - Processing FullAdder.sv...
+2025-03-24 14:36:01,432 - INFO - Detected module: full_adder
+2025-03-24 14:36:01,570 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/FullAdder.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-RsPPiw/output.blif'.
+
+2025-03-24 14:36:01,570 - INFO - Processing FullSubtractor.sv...
+2025-03-24 14:36:01,591 - INFO - Detected module: full_subtractor
+2025-03-24 14:36:01,729 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/FullSubtractor.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-OEsXpG/output.blif'.
+
+2025-03-24 14:36:01,729 - INFO - Processing HalfAdder.sv...
+2025-03-24 14:36:01,745 - INFO - Detected module: half_adder
+2025-03-24 14:36:01,888 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/HalfAdder.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-dYhqPM/output.blif'.
+
+2025-03-24 14:36:01,888 - INFO - Processing HalfSubtractor.sv...
+2025-03-24 14:36:01,897 - INFO - Detected module: half_subtractor
+2025-03-24 14:36:02,045 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/HalfSubtractor.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-Ip1qsl/output.blif'.
+
+2025-03-24 14:36:02,045 - INFO - Processing Mux41.sv...
+2025-03-24 14:36:02,053 - INFO - Detected module: mux_4x1
+2025-03-24 14:36:02,209 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/Mux41.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-dmWlG9/output.blif'.
+
+2025-03-24 14:36:02,209 - INFO - Processing mux81.sv...
+2025-03-24 14:36:02,217 - INFO - Detected module: mux_8x1
+2025-03-24 14:36:02,386 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/mux81.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-AcLPwE/output.blif'.
+
+2025-03-24 14:36:02,387 - INFO - Processing NandGate.sv...
+2025-03-24 14:36:02,402 - INFO - Detected module: nand_gate
+2025-03-24 14:36:02,554 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/NandGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-KxoYDl/output.blif'.
+
+2025-03-24 14:36:02,554 - INFO - Processing NorGate.sv...
+2025-03-24 14:36:02,571 - INFO - Detected module: nor_gate
+2025-03-24 14:36:02,734 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/NorGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-nzLjo4/output.blif'.
+
+2025-03-24 14:36:02,735 - INFO - Processing NotGate.sv...
+2025-03-24 14:36:02,750 - INFO - Detected module: not_gate
+2025-03-24 14:36:02,919 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/NotGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-ivVz97/output.blif'.
+
+2025-03-24 14:36:02,919 - INFO - Processing OrGate.sv...
+2025-03-24 14:36:02,933 - INFO - Detected module: or_gate
+2025-03-24 14:36:03,083 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/OrGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-5oXJGj/output.blif'.
+
+2025-03-24 14:36:03,084 - INFO - Processing Pencoder83.sv...
+2025-03-24 14:36:03,096 - INFO - Detected module: priority_encoder_8x3
+2025-03-24 14:36:03,275 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/Pencoder83.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-uQkkuw/output.blif'.
+
+2025-03-24 14:36:03,275 - INFO - Processing wallacemul4.sv...
+2025-03-24 14:36:03,292 - INFO - Detected module: wallace_multiplier_4bit
+2025-03-24 14:36:03,460 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/wallacemul4.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-ZJkI1V/output.blif'.
+
+2025-03-24 14:36:03,460 - INFO - Processing XnorGate.sv...
+2025-03-24 14:36:03,469 - INFO - Detected module: xnor_gate
+2025-03-24 14:36:03,620 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/XnorGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-5oF4xw/output.blif'.
+
+2025-03-24 14:36:03,620 - INFO - Processing XorGate.sv...
+2025-03-24 14:36:03,632 - INFO - Detected module: xor_gate
+2025-03-24 14:36:03,774 - ERROR - ❌ Yosys failed for /home/yashigauri/yosys_project/scripts/Verilog_Dataset/XorGate.sv:
+ERROR: Can't open ABC output file `/tmp/yosys-abc-nmsPbv/output.blif'.
+
+2025-03-24 14:36:03,791 - INFO - Dataset created with 28 entries at /home/yashigauri/yosys_project/scripts/Verilog_Dataset/rtl_combinational_depth_dataset.csv

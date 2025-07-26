@@ -1,0 +1,5 @@
+read_verilog -sv /home/yashigauri/yosys_project/scripts/Verilog_Dataset/XorGate.sv
+synth -top xor_gate
+abc -liberty /home/yashigauri/yosys_project/liberty/liberty_file.lib
+tee -o /home/yashigauri/yosys_project/results/synthesis_reports/XorGate.sv_synthesis.txt stat
+show -format dot -prefix /home/yashigauri/yosys_project/results/netlists/XorGate_netlist
