@@ -1,0 +1,19 @@
+
+4. Printing statistics.
+
+=== encoder_4x2 ===
+
+   Number of wires:                 22
+   Number of wire bits:             26
+   Number of public wires:           2
+   Number of public wire bits:       6
+   Number of ports:                  2
+   Number of port bits:              6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  6
+     $_AND_                          2
+     $_NOR_                          2
+     $_XOR_                          2
+

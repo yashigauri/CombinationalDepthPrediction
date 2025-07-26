@@ -1,0 +1,24 @@
+
+4. Printing statistics.
+
+=== alu_4bit ===
+
+   Number of wires:                112
+   Number of wire bits:            122
+   Number of public wires:           4
+   Number of public wire bits:      14
+   Number of ports:                  4
+   Number of port bits:             14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 50
+     $_ANDNOT_                       1
+     $_AND_                          9
+     $_MUX_                          1
+     $_NAND_                        19
+     $_ORNOT_                        2
+     $_OR_                           9
+     $_XNOR_                         7
+     $_XOR_                          2
+

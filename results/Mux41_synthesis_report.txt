@@ -1,0 +1,17 @@
+
+4. Printing statistics.
+
+=== mux_4x1 ===
+
+   Number of wires:                 17
+   Number of wire bits:             21
+   Number of public wires:           3
+   Number of public wire bits:       7
+   Number of ports:                  3
+   Number of port bits:              7
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $_MUX_                          3
+
